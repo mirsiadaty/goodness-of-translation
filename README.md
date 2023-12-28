@@ -19,7 +19,7 @@ The following are the nine outlier translates flagged by the GOTS methodology. T
 
 rfyukyk
 
-------------------------------------------------------------
+
 [INST]
 Quantify the semantic similarity of the two sentences marked by <Sent1> </Sent1> and <Sent2> </Sent2>.
 Provide a score between 0 and 100%, marked up by <SemanticSimilarityScore> </SemanticSimilarityScore>
@@ -32,7 +32,7 @@ This is not a text similarity score. We want to quantify how similar the two sen
 <SemanticSimilarityScore>0%</SemanticSimilarityScore>
 
 The two sentences have very different meanings. The first sentence is asking about the prognosis or expected outcome of a heart attack, while the second sentence is asking for a definition or explanation of what a heart attack is. Therefore, the semantic similarity score is 0%.</s>
-==============================================================
+
 
 
 fgnhfhn
