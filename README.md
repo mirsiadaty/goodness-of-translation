@@ -13,7 +13,9 @@ We applied the GOTS methodology to 1400 English sentences. These are question-an
 ![GoodnessOfTrnsltn_boxplot_20231228112441_1703780681_478](https://github.com/mirsiadaty/goodness-of-translation/assets/28493384/a749edc9-0bea-4342-8ef8-9635aa3bbe38)
 
 
-# The following are the nine outlier translates flagged by the GOTS methodology. These are LLM’s responses to the prompts we formulated:
+
+# GOTS outliers explained: LLM responses
+The following are the nine outlier translates flagged by the GOTS methodology. These are LLM’s responses to the prompts we formulated.
 
 0
 record index= 10
