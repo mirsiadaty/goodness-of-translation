@@ -17,6 +17,8 @@ We applied the GOTS methodology to 1400 English sentences. These are question-an
 # GOTS outliers explained: LLM responses
 The following are the nine outlier translates flagged by the GOTS methodology. These are LLM’s responses to the prompts we formulated.
 
+rfyukyk
+
 0
 record index= 10
 10    0
@@ -220,3 +222,7 @@ The two sentences, "What are the risk factors for urticaria?" and "What are the 
 ==============================================================
 
 Thu Dec 28 10:59:04 2023
+
+
+fgnhfhn
+
