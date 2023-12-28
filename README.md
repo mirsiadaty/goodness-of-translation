@@ -27,17 +27,25 @@ dtype: int64
 ------------------------------------------------------------
 
 <s><s> [INST]
-Quantify the semantic similarity of the two sentences marked by <Sent1> </Sent1> and <Sent2> </Sent2>.
-Provide a score between 0 and 100%, marked up by <SemanticSimilarityScore> </SemanticSimilarityScore>
-This is not a text similarity score. We want to quantify how similar the two sentences are in meaning.
+Quantify the semantic similarity of the two sentences marked by <Sent1> </Sent1> and <Sent2>
+</Sent2>.
+Provide a score between 0 and 100%, marked up by <SemanticSimilarityScore>
+</SemanticSimilarityScore>
+This is not a text similarity score. We want to quantify how similar the two sentences are in
+meaning.
 
-<Sent1>What is prognosis of heart attack?</Sent1>
-<Sent2>What's a heart attack?</Sent2>
+<Sent1>What are the risk factors for urticaria?</Sent1>
+<Sent2>What are the risk factors for measles?</Sent2>
 
 [/INST]
-<SemanticSimilarityScore>0%</SemanticSimilarityScore>
+<SemanticSimilarityScore>30%</SemanticSimilarityScore>
 
-The two sentences have very different meanings. The first sentence is asking about the prognosis or expected outcome of a heart attack, while the second sentence is asking for a definition or explanation of what a heart attack is. Therefore, the semantic similarity score is 0%.</s>
+The two sentences, "What are the risk factors for urticaria?" and "What are the risk factors for
+measles?", have a semantic similarity score of 30%. This is because both sentences are asking about
+the risk factors for a specific medical condition. However, the score is relatively low because the
+two medical conditions, urticaria and measles, are distinct and unrelated. Therefore, the specific
+risk factors for each condition will not be the same, leading to a limited overlap in meaning
+between the two sentences.</s>
 ==============================================================
 
 1
@@ -49,17 +57,25 @@ dtype: int64
 ------------------------------------------------------------
 
 <s><s> [INST]
-Quantify the semantic similarity of the two sentences marked by <Sent1> </Sent1> and <Sent2> </Sent2>.
-Provide a score between 0 and 100%, marked up by <SemanticSimilarityScore> </SemanticSimilarityScore>
-This is not a text similarity score. We want to quantify how similar the two sentences are in meaning.
+Quantify the semantic similarity of the two sentences marked by <Sent1> </Sent1> and <Sent2>
+</Sent2>.
+Provide a score between 0 and 100%, marked up by <SemanticSimilarityScore>
+</SemanticSimilarityScore>
+This is not a text similarity score. We want to quantify how similar the two sentences are in
+meaning.
 
-<Sent1>What causes urticaria?</Sent1>
-<Sent2>What causes worms?</Sent2>
+<Sent1>What are the risk factors for urticaria?</Sent1>
+<Sent2>What are the risk factors for measles?</Sent2>
 
 [/INST]
-<SemanticSimilarityScore>0%</SemanticSimilarityScore>
+<SemanticSimilarityScore>30%</SemanticSimilarityScore>
 
-The sentences "What causes urticaria?" and "What causes worms?" have different meanings and are not semantically similar. Urticaria, also known as hives, is a skin condition characterized by itchy, raised welts, while worms typically refer to parasitic organisms that live in the intestines of animals, including humans. The cause of urticaria and worms are unrelated, and therefore, the sentences have no semantic similarity.</s>
+The two sentences, "What are the risk factors for urticaria?" and "What are the risk factors for
+measles?", have a semantic similarity score of 30%. This is because both sentences are asking about
+the risk factors for a specific medical condition. However, the score is relatively low because the
+two medical conditions, urticaria and measles, are distinct and unrelated. Therefore, the specific
+risk factors for each condition will not be the same, leading to a limited overlap in meaning
+between the two sentences.</s>
 ==============================================================
 
 2
@@ -71,17 +87,25 @@ dtype: int64
 ------------------------------------------------------------
 
 <s><s> [INST]
-Quantify the semantic similarity of the two sentences marked by <Sent1> </Sent1> and <Sent2> </Sent2>.
-Provide a score between 0 and 100%, marked up by <SemanticSimilarityScore> </SemanticSimilarityScore>
-This is not a text similarity score. We want to quantify how similar the two sentences are in meaning.
+Quantify the semantic similarity of the two sentences marked by <Sent1> </Sent1> and <Sent2>
+</Sent2>.
+Provide a score between 0 and 100%, marked up by <SemanticSimilarityScore>
+</SemanticSimilarityScore>
+This is not a text similarity score. We want to quantify how similar the two sentences are in
+meaning.
 
-<Sent1>What is prognosis of prostate cancer?</Sent1>
-<Sent2>What are the signs of prostate cancer?</Sent2>
+<Sent1>What are the risk factors for urticaria?</Sent1>
+<Sent2>What are the risk factors for measles?</Sent2>
 
 [/INST]
-<SemanticSimilarityScore>10%</SemanticSimilarityScore>
+<SemanticSimilarityScore>30%</SemanticSimilarityScore>
 
-The two sentences have a low semantic similarity score because they are asking about different aspects of prostate cancer. The first sentence is asking about the prognosis or expected outcome of prostate cancer, while the second sentence is asking about the signs or symptoms of the disease. Although both sentences are related to prostate cancer, they are not similar in meaning.</s>
+The two sentences, "What are the risk factors for urticaria?" and "What are the risk factors for
+measles?", have a semantic similarity score of 30%. This is because both sentences are asking about
+the risk factors for a specific medical condition. However, the score is relatively low because the
+two medical conditions, urticaria and measles, are distinct and unrelated. Therefore, the specific
+risk factors for each condition will not be the same, leading to a limited overlap in meaning
+between the two sentences.</s>
 ==============================================================
 
 3
@@ -93,17 +117,25 @@ dtype: int64
 ------------------------------------------------------------
 
 <s><s> [INST]
-Quantify the semantic similarity of the two sentences marked by <Sent1> </Sent1> and <Sent2> </Sent2>.
-Provide a score between 0 and 100%, marked up by <SemanticSimilarityScore> </SemanticSimilarityScore>
-This is not a text similarity score. We want to quantify how similar the two sentences are in meaning.
+Quantify the semantic similarity of the two sentences marked by <Sent1> </Sent1> and <Sent2>
+</Sent2>.
+Provide a score between 0 and 100%, marked up by <SemanticSimilarityScore>
+</SemanticSimilarityScore>
+This is not a text similarity score. We want to quantify how similar the two sentences are in
+meaning.
 
-<Sent1>What is prognosis of diabetes?</Sent1>
-<Sent2>What are the signs of diabetes?</Sent2>
+<Sent1>What are the risk factors for urticaria?</Sent1>
+<Sent2>What are the risk factors for measles?</Sent2>
 
 [/INST]
-<SemanticSimilarityScore>10%</SemanticSimilarityScore>
+<SemanticSimilarityScore>30%</SemanticSimilarityScore>
 
-The two sentences have a low semantic similarity score because they are asking about different aspects of diabetes. The first sentence is asking about the prognosis or expected outcome of diabetes, while the second sentence is asking about the signs or symptoms of diabetes. Although they both mention diabetes, the meanings of the two sentences are distinct and not closely related.</s>
+The two sentences, "What are the risk factors for urticaria?" and "What are the risk factors for
+measles?", have a semantic similarity score of 30%. This is because both sentences are asking about
+the risk factors for a specific medical condition. However, the score is relatively low because the
+two medical conditions, urticaria and measles, are distinct and unrelated. Therefore, the specific
+risk factors for each condition will not be the same, leading to a limited overlap in meaning
+between the two sentences.</s>
 ==============================================================
 
 4
@@ -115,21 +147,25 @@ dtype: int64
 ------------------------------------------------------------
 
 <s><s> [INST]
-Quantify the semantic similarity of the two sentences marked by <Sent1> </Sent1> and <Sent2> </Sent2>.
-Provide a score between 0 and 100%, marked up by <SemanticSimilarityScore> </SemanticSimilarityScore>
-This is not a text similarity score. We want to quantify how similar the two sentences are in meaning.
+Quantify the semantic similarity of the two sentences marked by <Sent1> </Sent1> and <Sent2>
+</Sent2>.
+Provide a score between 0 and 100%, marked up by <SemanticSimilarityScore>
+</SemanticSimilarityScore>
+This is not a text similarity score. We want to quantify how similar the two sentences are in
+meaning.
 
-<Sent1>Who gets urticaria?</Sent1>
-<Sent2>Who gets the measles?</Sent2>
+<Sent1>What are the risk factors for urticaria?</Sent1>
+<Sent2>What are the risk factors for measles?</Sent2>
 
 [/INST]
-<SemanticSimilarityScore>10%</SemanticSimilarityScore>
+<SemanticSimilarityScore>30%</SemanticSimilarityScore>
 
-Explanation:
-
-Urticaria and measles are two distinct medical conditions with different causes, symptoms, and treatments. Urticaria, also known as hives, is a skin reaction characterized by the rapid appearance of red, swollen, and itchy bumps on the skin. Measles, on the other hand, is a highly contagious viral infection that causes a fever, cough, runny nose, and a rash all over the body.
-
-Although both sentences ask about a group of people who experience a particular health issue, the semantic similarity between the two sentences is minimal. The subjects of the sentences, urticaria and measles, are not related in meaning, and the questions are asking about two different medical conditions. Therefore, the semantic similarity score is low, at around 10%.</s>
+The two sentences, "What are the risk factors for urticaria?" and "What are the risk factors for
+measles?", have a semantic similarity score of 30%. This is because both sentences are asking about
+the risk factors for a specific medical condition. However, the score is relatively low because the
+two medical conditions, urticaria and measles, are distinct and unrelated. Therefore, the specific
+risk factors for each condition will not be the same, leading to a limited overlap in meaning
+between the two sentences.</s>
 ==============================================================
 
 5
@@ -141,17 +177,25 @@ dtype: int64
 ------------------------------------------------------------
 
 <s><s> [INST]
-Quantify the semantic similarity of the two sentences marked by <Sent1> </Sent1> and <Sent2> </Sent2>.
-Provide a score between 0 and 100%, marked up by <SemanticSimilarityScore> </SemanticSimilarityScore>
-This is not a text similarity score. We want to quantify how similar the two sentences are in meaning.
+Quantify the semantic similarity of the two sentences marked by <Sent1> </Sent1> and <Sent2>
+</Sent2>.
+Provide a score between 0 and 100%, marked up by <SemanticSimilarityScore>
+</SemanticSimilarityScore>
+This is not a text similarity score. We want to quantify how similar the two sentences are in
+meaning.
 
-<Sent1>How to prevent urticaria?</Sent1>
-<Sent2>How can we prevent arthritis?</Sent2>
+<Sent1>What are the risk factors for urticaria?</Sent1>
+<Sent2>What are the risk factors for measles?</Sent2>
 
 [/INST]
-<SemanticSimilarityScore>10%</SemanticSimilarityScore>
+<SemanticSimilarityScore>30%</SemanticSimilarityScore>
 
-The two sentences have a low semantic similarity score because they address different medical conditions (urticaria and arthritis) and ask for methods to prevent them. The subjects are unrelated, and the verbs in both sentences, "prevent" and "can we prevent," convey a similar action but are not equivalent in meaning due to the different subjects. Overall, the sentences have a weak connection in terms of meaning.</s>
+The two sentences, "What are the risk factors for urticaria?" and "What are the risk factors for
+measles?", have a semantic similarity score of 30%. This is because both sentences are asking about
+the risk factors for a specific medical condition. However, the score is relatively low because the
+two medical conditions, urticaria and measles, are distinct and unrelated. Therefore, the specific
+risk factors for each condition will not be the same, leading to a limited overlap in meaning
+between the two sentences.</s>
 ==============================================================
 
 6
@@ -163,17 +207,25 @@ dtype: int64
 ------------------------------------------------------------
 
 <s><s> [INST]
-Quantify the semantic similarity of the two sentences marked by <Sent1> </Sent1> and <Sent2> </Sent2>.
-Provide a score between 0 and 100%, marked up by <SemanticSimilarityScore> </SemanticSimilarityScore>
-This is not a text similarity score. We want to quantify how similar the two sentences are in meaning.
+Quantify the semantic similarity of the two sentences marked by <Sent1> </Sent1> and <Sent2>
+</Sent2>.
+Provide a score between 0 and 100%, marked up by <SemanticSimilarityScore>
+</SemanticSimilarityScore>
+This is not a text similarity score. We want to quantify how similar the two sentences are in
+meaning.
 
-<Sent1>How is urticaria diagnosed?</Sent1>
-<Sent2>How is artery disease diagnosed?</Sent2>
+<Sent1>What are the risk factors for urticaria?</Sent1>
+<Sent2>What are the risk factors for measles?</Sent2>
 
 [/INST]
-<SemanticSimilarityScore>10%</SemanticSimilarityScore>
+<SemanticSimilarityScore>30%</SemanticSimilarityScore>
 
-The two sentences have a low semantic similarity score because they refer to different medical conditions and the diagnostic procedures for these conditions would be different. Urticaria is a skin condition, while artery disease refers to a problem with the blood vessels. Therefore, the diagnostic methods for these two conditions would be dissimilar.</s>
+The two sentences, "What are the risk factors for urticaria?" and "What are the risk factors for
+measles?", have a semantic similarity score of 30%. This is because both sentences are asking about
+the risk factors for a specific medical condition. However, the score is relatively low because the
+two medical conditions, urticaria and measles, are distinct and unrelated. Therefore, the specific
+risk factors for each condition will not be the same, leading to a limited overlap in meaning
+between the two sentences.</s>
 ==============================================================
 
 7
@@ -185,17 +237,25 @@ dtype: int64
 ------------------------------------------------------------
 
 <s><s> [INST]
-Quantify the semantic similarity of the two sentences marked by <Sent1> </Sent1> and <Sent2> </Sent2>.
-Provide a score between 0 and 100%, marked up by <SemanticSimilarityScore> </SemanticSimilarityScore>
-This is not a text similarity score. We want to quantify how similar the two sentences are in meaning.
+Quantify the semantic similarity of the two sentences marked by <Sent1> </Sent1> and <Sent2>
+</Sent2>.
+Provide a score between 0 and 100%, marked up by <SemanticSimilarityScore>
+</SemanticSimilarityScore>
+This is not a text similarity score. We want to quantify how similar the two sentences are in
+meaning.
 
-<Sent1>What is prognosis of anxiety?</Sent1>
-<Sent2>What are the signs of anxiety?</Sent2>
+<Sent1>What are the risk factors for urticaria?</Sent1>
+<Sent2>What are the risk factors for measles?</Sent2>
 
 [/INST]
-<SemanticSimilarityScore>10%</SemanticSimilarityScore>
+<SemanticSimilarityScore>30%</SemanticSimilarityScore>
 
-The two sentences have a low semantic similarity score because they are asking about different aspects of anxiety. The first sentence is asking about the prognosis or outcome of anxiety, while the second sentence is asking about the signs or symptoms of anxiety. Although both sentences are related to the topic of anxiety, they are not similar in meaning.</s>
+The two sentences, "What are the risk factors for urticaria?" and "What are the risk factors for
+measles?", have a semantic similarity score of 30%. This is because both sentences are asking about
+the risk factors for a specific medical condition. However, the score is relatively low because the
+two medical conditions, urticaria and measles, are distinct and unrelated. Therefore, the specific
+risk factors for each condition will not be the same, leading to a limited overlap in meaning
+between the two sentences.</s>
 ==============================================================
 
 8
@@ -207,9 +267,12 @@ dtype: int64
 ------------------------------------------------------------
 
 <s><s> [INST]
-Quantify the semantic similarity of the two sentences marked by <Sent1> </Sent1> and <Sent2> </Sent2>.
-Provide a score between 0 and 100%, marked up by <SemanticSimilarityScore> </SemanticSimilarityScore>
-This is not a text similarity score. We want to quantify how similar the two sentences are in meaning.
+Quantify the semantic similarity of the two sentences marked by <Sent1> </Sent1> and <Sent2>
+</Sent2>.
+Provide a score between 0 and 100%, marked up by <SemanticSimilarityScore>
+</SemanticSimilarityScore>
+This is not a text similarity score. We want to quantify how similar the two sentences are in
+meaning.
 
 <Sent1>What are the risk factors for urticaria?</Sent1>
 <Sent2>What are the risk factors for measles?</Sent2>
@@ -217,8 +280,11 @@ This is not a text similarity score. We want to quantify how similar the two sen
 [/INST]
 <SemanticSimilarityScore>30%</SemanticSimilarityScore>
 
-The two sentences, "What are the risk factors for urticaria?" and "What are the risk factors for measles?", have a semantic similarity score of 30%. This is because both sentences are asking about the risk factors for a specific medical condition. However, the score is relatively low because the two medical conditions, urticaria and measles, are distinct and unrelated. Therefore, the specific risk factors for each condition will not be the same, leading to a limited overlap in meaning between the two sentences.</s>
+The two sentences, "What are the risk factors for urticaria?" and "What are the risk factors for
+measles?", have a semantic similarity score of 30%. This is because both sentences are asking about
+the risk factors for a specific medical condition. However, the score is relatively low because the
+two medical conditions, urticaria and measles, are distinct and unrelated. Therefore, the specific
+risk factors for each condition will not be the same, leading to a limited overlap in meaning
+between the two sentences.</s>
 ==============================================================
-
-Thu Dec 28 10:59:04 2023
 ```
